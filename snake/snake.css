@@ -1,0 +1,61 @@
+	html,body,div,canvas{
+		padding: 0;
+		margin: 0;
+	}
+	html , body{ height: 100%; overflow: hidden;text-align: center;}
+	#myCvs{
+		background-color: darkseagreen;
+		box-shadow: 0 0 2px 2px rgba(0, 0, 0, .7);
+		margin-top: 10px;
+	}
+	.main-menu{
+		border-radius: 5px;
+		margin: 5px auto;
+	}
+	.main-menu> div{display: inline-block;}
+	button{border: none; border-radius: 50%;}
+	.score{
+		width: 150px;
+		height: 24px;
+		line-height: 24px;
+		border-radius: 8px;
+		margin: 5px auto;
+		background-color: bisque;
+		font-size: 18px;
+		color: crimson;
+	}
+	.btndrec-btn{
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		background-image: url("btn.png");
+		background-size:100%;
+		cursor: pointer;
+	}
+	.menu {margin-right: 20%;}
+	.menu .btndrec-btn{
+		display: block;
+		margin: 21px auto;
+	}
+	#start{
+		background-position: 0 -255px;
+	}
+	#reStart{
+		background-position: 0 -320px;
+	}
+	#left{
+		background-position: 0 -130px;
+		margin-right: 20px;
+	}
+	#right{
+		background-position: 0 -193px;
+		margin-left: 20px;
+	}
+	#up{
+		background-position: 0 0;
+		margin-bottom: -5px;
+	}
+	#down{
+		background-position: 0 -65px;
+		margin-top: -10px;
+	}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="snake.css">
+	<title>Document</title>
+</head>
+<body>
+	<canvas id="myCvs" width="600px" height="405px">
+	</canvas>
+	<div class="score">
+		<span>得分：</span>
+		<span id="score">0</span>
+	</div>
+	<div class="main-menu">
+		<div class="menu">
+			<button class="btndrec-btn" id="start"></button>
+			<button class="btndrec-btn" id="reStart"></button>
+		</div>
+		<div class="drec">
+			<div class="btndrec-btn" id="up" onclick="changeDrect(this.id);"></div><br/>
+			<div class="btndrec-btn" id="left" onclick="changeDrect(this.id);"></div>
+			<div class="btndrec-btn" id="right" onclick="changeDrect(this.id);"></div><br/>
+			<div class="btndrec-btn" id="down" onclick="changeDrect(this.id);"></div>
+		</div>
+	</div>
+<script src="index.js">
+</script>
+</body>
+</html>
